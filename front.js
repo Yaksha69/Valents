@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         Swal.fire({
             title: 'It\'s a Date! ❤️',
             text: 'February 16, 2025',
-            imageUrl: '../assets/hug.gif',
+            imageUrl: '/assets/hug.gif',
             imageWidth: 300,
             imageHeight: 200,
             imageAlt: 'Cute love gif',
