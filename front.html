@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Valentine's Day Message">
+    <meta name="theme-color" content="#ff69b4">
     <title>Valentine's Message</title>
     <link rel="stylesheet" href="style.css">
     <!-- Add SweetAlert2 CSS -->
@@ -13,15 +15,15 @@
 <body>
     <div class="container">
         <div class="valentine-card">
-            <h1>Will you be my Valentine?</h1>
+            <h1 class="title">Will you be my Valentine?</h1>
             <div class="heart">
-                <img src="./assets/bubuask.gif" alt="Animated Heart">
+                <img src="./assets/bubuask.gif" alt="Animated Heart" class="heart-image">
             </div>
             <div class="buttons">
-                <button id="yesBtn">Yes</button>
-                <button id="noBtn">No</button>
+                <button id="yesBtn" class="btn">Yes</button>
+                <button id="noBtn" class="btn">No</button>
             </div>
-            <div id="response"></div>
+            <div id="response" class="response-text"></div>
         </div>
     </div>
     <script src="front.js"></script>
